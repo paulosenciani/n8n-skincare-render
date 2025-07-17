@@ -7,10 +7,7 @@ services:
     envVars:
       - key: N8N_BASIC_AUTH_USER
         value: admin
-        fromDatabase: "false"
       - key: N8N_BASIC_AUTH_PASSWORD
         value: umaSenhaSegura123
-        fromDatabase: "false"
       - key: WEBHOOK_URL
         value: https://n8n-skincare.onrender.com
-        fromDatabase: "false"
