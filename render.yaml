@@ -6,8 +6,11 @@ services:
     plan: free
     envVars:
       - key: N8N_BASIC_AUTH_USER
-        fromDatabase: false
+        value: admin
+        fromDatabase: "false"
       - key: N8N_BASIC_AUTH_PASSWORD
-        fromDatabase: false
+        value: umaSenhaSegura123
+        fromDatabase: "false"
       - key: WEBHOOK_URL
-        fromDatabase: false
+        value: https://n8n-skincare.onrender.com
+        fromDatabase: "false"
