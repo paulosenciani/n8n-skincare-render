@@ -2,7 +2,7 @@ services:
   - type: web
     name: n8n-skincare
     env: docker
-    dockerfilePath: Dockerfile
+    dockerfilePath: ./Dockerfile
     plan: free
     envVars:
       - key: N8N_BASIC_AUTH_USER
